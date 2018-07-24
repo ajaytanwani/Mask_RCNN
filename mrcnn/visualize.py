@@ -9,6 +9,7 @@ Written by Waleed Abdulla
 
 import os
 import sys
+import logging
 import random
 import itertools
 import colorsys

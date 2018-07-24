@@ -465,6 +465,7 @@ if __name__ == '__main__':
     elif args.weights.lower() == "last":
         # Find last trained weights
         weights_path = model.find_last()
+	# weights_path = model.find_last()[1]
     elif args.weights.lower() == "imagenet":
         # Start from ImageNet trained weights
         weights_path = model.get_imagenet_weights()
