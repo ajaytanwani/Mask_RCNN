@@ -1,5 +1,15 @@
 # Mask R-CNN for Object Detection and Segmentation
 
+## Bugs that may need to be fixed ...
+pip install --upgrade tensorflow==1.3.0
+pip install imgaug
+pip install --upgrade Pillow==5.0
+pip install --upgrade opencv-python==3.1.0.2
+pip install --upgrade keras=2.0.8
+conda install openblas=0.2.19 (might not need this)
+https://github.com/cocodataset/cocoapi/issues/8
+https://github.com/matterport/Mask_RCNN/issues/6
+
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
 ![Instance Segmentation Sample](assets/street.png)
